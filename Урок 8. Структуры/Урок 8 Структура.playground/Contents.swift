@@ -2,6 +2,7 @@ import UIKit
 
 var greeting = "Hello, playground"
 
+///Отличие структуры от класса 
 class Human {
     var age: Int                    ///тип ссылки
     var name: String
@@ -66,3 +67,4 @@ human2.name
 
 human1.age
 human1.name
+
