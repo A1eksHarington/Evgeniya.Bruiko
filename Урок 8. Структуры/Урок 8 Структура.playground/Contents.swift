@@ -68,3 +68,59 @@ human2.name
 human1.age
 human1.name
 
+
+
+
+
+
+class Car {
+    var speed: Int
+    var distance: Int
+    
+    init(speed: Int, distance: Int) {
+        self.speed = speed
+        self.distance = distance
+    }
+    
+}
+var bmw = Car(speed: 100, distance: 1000)
+bmw.speed = 150
+
+var mercedes = Car(speed: 110, distance: 10001)
+
+mercedes = bmw
+
+
+mercedes.distance = 400
+mercedes.speed = 500
+
+mercedes.distance
+mercedes.speed
+
+bmw.distance
+bmw.speed
+
+
+
+struct Car1 {
+    var speed: Int
+    var distance: Int
+    
+}
+
+var renaut = Car1(speed: 60, distance: 90)
+
+renaut.distance = 95
+
+var wollkwagen = Car1(speed: 50, distance: 75)
+
+wollkwagen = renaut
+
+wollkwagen.distance = 200
+wollkwagen.speed = 300
+
+wollkwagen.speed
+wollkwagen.distance
+renaut.distance
+renaut.speed
+
